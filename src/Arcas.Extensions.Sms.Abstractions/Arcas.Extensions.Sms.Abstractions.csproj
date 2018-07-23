@@ -3,6 +3,11 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <RootNamespace>Arcas.Extensions.Sms</RootNamespace>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <PackageProjectUrl></PackageProjectUrl>
+    <Copyright>ArcasDotNet</Copyright>
+    <RepositoryUrl>https://github.com/ArcasDotnet/Arcas.Extensions.Sms</RepositoryUrl>
+    <RepositoryType></RepositoryType>
   </PropertyGroup>
 
 </Project>

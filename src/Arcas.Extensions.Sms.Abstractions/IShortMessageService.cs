@@ -6,7 +6,7 @@ namespace Arcas.Extensions.Sms
     /// <summary>
     /// 短信服务接口
     /// </summary>
-    public interface ISmsService
+    public interface IShortMessageService
     {
         /// <summary>
         /// 发送短信
@@ -15,6 +15,6 @@ namespace Arcas.Extensions.Sms
         /// <param name="content">短信内容</param>
         /// <param name="cancellationToken"></param>
         /// <returns></returns>
-        Task<(bool success, string message)> SendAsync(long phone, string content, CancellationToken cancellationToken = default(CancellationToken));
+        Task<(bool success, string message)> SendSmsAsync(long phone, string content, CancellationToken cancellationToken = default(CancellationToken));
     }
 }
